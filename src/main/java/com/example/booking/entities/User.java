@@ -4,7 +4,7 @@ package com.example.booking.entities;
 import jakarta.persistence.*;
 
 import java.util.List;
-@Entity
+@Entity(name="_USER")
 public class User {
 
     @Id
